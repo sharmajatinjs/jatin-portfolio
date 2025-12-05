@@ -170,14 +170,14 @@ const App = () => {
               <div className="absolute inset-0 rounded-full border border-blue-500/30 animate-[spin_10s_linear_infinite]"></div>
               <div className="absolute inset-4 rounded-full border border-purple-500/30 animate-[spin_15s_linear_infinite_reverse]"></div>
               <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-[#0a0a0a] shadow-2xl bg-[#0a0a0a]">
-                <img 
-                  src="/geminijatin.png" 
-                  onError={(e) => {
-                    e.target.src = "https://api.dicebear.com/7.x/avataaars/svg?seed=Jatin&backgroundColor=b6e3f4"; 
-                  }}
-                  alt="Jatin Sharma" 
-                  className="w-full h-full object-cover"
-                />
+                <img
+  src="/geminijatin.png"
+  onError={(e) => {
+    (e.target as HTMLImageElement).src = "https://api.dicebear.com/7.x/avataaars/svg?seed=Jatin&backgroundColor=b6e3f4";
+  }}
+  alt="Jatin Sharma"
+  className="w-full h-full object-cover"
+/>
               </div>
             </div>
 
