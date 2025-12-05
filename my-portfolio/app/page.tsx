@@ -24,7 +24,7 @@ import {
 } from 'lucide-react';
 
 // --- CONFIGURATION ---
-const GITHUB_USERNAME = "jatinsharma"; 
+const GITHUB_USERNAME = "sharmajatinjs"; 
 
 const App = () => {
   useEffect(() => {
@@ -145,7 +145,7 @@ const App = () => {
               <a href="mailto:sharmajatin.js0105@gmail.com" className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-medium transition-all shadow-lg shadow-blue-500/20">
                 <Mail size={18} /> Email Me
               </a>
-              <a href="https://linkedin.com/in/jatinsharma" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-[#0077b5] hover:bg-[#006396] text-white rounded-lg font-medium transition-all">
+              <a href="https://linkedin.com/in/sharmajatinjs" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-[#0077b5] hover:bg-[#006396] text-white rounded-lg font-medium transition-all">
                 <Linkedin size={18} /> LinkedIn
               </a>
               <a href="https://github.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-[#1a1a1a] border border-slate-700 hover:border-white text-white rounded-lg font-medium transition-all">
@@ -171,13 +171,13 @@ const App = () => {
               <div className="absolute inset-4 rounded-full border border-purple-500/30 animate-[spin_15s_linear_infinite_reverse]"></div>
               <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-[#0a0a0a] shadow-2xl bg-[#0a0a0a]">
                 <img
-  src="/geminijatin.png"
-  onError={(e) => {
-    (e.target as HTMLImageElement).src = "https://api.dicebear.com/7.x/avataaars/svg?seed=Jatin&backgroundColor=b6e3f4";
-  }}
-  alt="Jatin Sharma"
-  className="w-full h-full object-cover"
-/>
+                 src="/geminijatin.png"
+                  onError={(e) => {
+                 (e.target as HTMLImageElement).src = "https://api.dicebear.com/7.x/avataaars/svg?seed=Jatin&backgroundColor=b6e3f4";
+                    }}
+                   alt="Jatin Sharma"
+                    className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
