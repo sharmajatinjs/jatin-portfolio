@@ -33,7 +33,7 @@ const App = () => {
   }, []);
 
   const [darkMode, setDarkMode] = useState(true);
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState<any[]>([])
   const [loadingProjects, setLoadingProjects] = useState(true);
 
   // 1. GITHUB FETCH
